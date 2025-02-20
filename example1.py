@@ -9,3 +9,10 @@ print(num1, num2)
 #avoid using capital letters to start your variable names
 #don't use special words as variables ig print, input etc
 #Variables in Python are case sensitive ie Num1 is not the same as num1
+#A complete instruction to a computer is called a statement i.e line 2-5
+#A statement that evaluates to a result is called an expression e.g line 5 we get a result of addittion
+#A Python File is called python script
+#A Group of statements is called a code
+#A group of related code is called a block of code
+#A block of code or just a group of code or just code in a python script is called a program therefore a program 
+#Running or Implementing a Program is called execution
