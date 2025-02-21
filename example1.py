@@ -16,3 +16,7 @@ print(num1, num2)
 #A group of related code is called a block of code
 #A block of code or just a group of code or just code in a python script is called a program therefore a program 
 #Running or Implementing a Program is called execution
+#The process of creating a variable to a memory location is called declaring a variable
+#The process of giving/storing a value in a variable is called initializing or assigning
+#In Python you cannot create a variable and not assign it a value. ALL VARIABLES(MEMORY) MUST HAVE A VALUE
+#Semantics is what you have written in python(the set of rules that define how Python code is executed and interpreted) while syntax is what you write or the language to communicate with python.
