@@ -21,3 +21,35 @@ print(trouble)
 #Values stored in parethensis () are Called TUPLES, they are immutable ie read only sequence, we can only access values in a tuple but not modify
 mytuple = (100, 300, 500)
 print(type(mytuple))
+print(mytuple[0])
+
+#Key-Value pairs stored in curly braces{} are Called DICTIONARIES,a dictionary is an ordered collection of key-value paired items
+capital_city = {'Nepal':'Kathmandu', 'Italy':'Rome', 'England':'London'}
+print(capital_city)
+print(type(capital_city))
+
+#Dictonary option 2 arrangement
+capital_city2 = {'Nepal':'Kathmandu',
+'Italy':'Rome',
+'England':'London'
+}
+capital_city2
+
+#Dictonary option 3 arrangement housing strings intergers and lists
+capital_city2 = {
+1 : 'Matilda',
+2 : "Sandra",
+3 : [24,26,30],
+4 : 50
+}
+capital_city2[3] #we use keys to access the values and not values to access the keys!
+
+#Values only(not key:value pairs) stored in curly braces{} are Called SET, These are unordered collection of unique items & immutable (unchangeable)
+student_id = {112, 114, 116, 118, 115}
+student_id
+type(student_id)
+
+names = {'Matilda', "Sandra", "Akello"}
+print(names)
+print(type(names))
+#FACT: A Set is an unordered collection that does not support accessing elements by a specific position or index. The concept of indexing does not align with the nature of a Set
