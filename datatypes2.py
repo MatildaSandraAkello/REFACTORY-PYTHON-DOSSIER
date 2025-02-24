@@ -3,6 +3,8 @@ num1, num2, num3 = 100, 300, 500 #the problem with this arrangement is that it w
 numbers = [100, 300, 500] #now in this single memory location it stores 3 values
 numbers1 = [num1, num2, num3] #this too now stores values of line 2 in one memory location
 #values stored in [] are called LISTS, and stored in one single memory location ie in one variable
+# A list can store values of different data types in one variable.
+# Lists store single values ie iformation about one thing unlike dictonaries that hold say a student's details  
 numbers2 = []
 things = [100, "Hello", 300.0, True, [1, 2, 3]]
 print(type(numbers))
@@ -19,9 +21,14 @@ trouble.pop() #removes the value added
 print(trouble)
 
 #Values stored in parethensis () are Called TUPLES, they are immutable ie read only sequence, we can only access values in a tuple but not modify
+# Tuples are read only, but can also hold different data types 
 mytuple = (100, 300, 500)
 print(type(mytuple))
 print(mytuple[0])
+
+mytuple2 = (100, [200,300,400], "Matilda", 'Sandra')
+print(mytuple2)
+print(mytuple2[1])
 
 #Key-Value pairs stored in curly braces{} are Called DICTIONARIES,a dictionary is an ordered collection of key-value paired items
 capital_city = {'Nepal':'Kathmandu', 'Italy':'Rome', 'England':'London'}

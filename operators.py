@@ -12,3 +12,36 @@ num = 100 # The equal sign is an operator and tells CPU to do something with the
 # 5. Assignment Operators e.g (=, +=, -=, *=, /=, %=, **=)
 # 6. Comparison Operators e.g (==, !=, >, <, >=, <=)
 # 7. Identity Operators (is - True if operands are 'identical', is not - True if operands are 'not identical')
+
+#ARITHMETIC OPERATORS
+
+num1,num2 = 30,200
+
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / num2) #returns a float value
+print(num1 // num2) #floor division returns a int ie rounds to nearest small whole number
+print(num1 % num2) #modulo returns the remainder
+print(num2**2) #num2 raised to the power 2
+
+#ASSIGNMENT OPERATORS
+
+num3 = 10 # = is an assignment
+num3 += 10 #+=(means additional assignment) num3 is now num3 + 10
+print(num3)
+
+num3 -= 10 #+=(means subtraction assignment) num3 is now num3 - 10
+num3
+
+num3 *= 5 #+=(means multiplication assignment) num3 is now num3 * 5
+num3
+
+num3 /= 2 #+=(means division assignment) num3 is now num3 / 2
+num3
+
+num3 %= 6 #+=(means division assignment) num3 is now num3 % 6
+num3
+
+num3 **= 2 #+=(means division assignment) num3 is now num3 ** 2
+num3
