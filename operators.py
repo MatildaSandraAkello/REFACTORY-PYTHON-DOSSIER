@@ -22,7 +22,7 @@ print(num1 - num2)
 print(num1 * num2)
 print(num1 / num2) #returns a float value
 print(num1 // num2) #floor division returns a int ie rounds to nearest small whole number
-print(num1 % num2) #modulo returns the remainder
+print(num1 % num2) #modulus returns the remainder
 print(num2**2) #num2 raised to the power 2
 
 #ASSIGNMENT OPERATORS
