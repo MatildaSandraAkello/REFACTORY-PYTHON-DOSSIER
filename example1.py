@@ -19,4 +19,5 @@ print(num1, num2)
 #The process of creating a variable to a memory location is called declaring a variable
 #The process of giving/storing a value in a variable is called initializing or assigning
 #In Python you cannot create a variable and not assign it a value. ALL VARIABLES(MEMORY) MUST HAVE A VALUE
-#Semantics is what you have written in python(the set of rules that define how Python code is executed and interpreted) while syntax is what you write or the language to communicate with python.
+#Semantics is what you have written in python or the statement(the set of rules that define how Python code is executed and interpreted) while syntax is what you write or the language to communicate with python.
+#you declare a variable
