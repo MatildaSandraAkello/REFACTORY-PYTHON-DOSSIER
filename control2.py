@@ -12,6 +12,9 @@ else:
 
 #Loops are very expensive interms of memory because every time it loops it creates a new memory.
 #In programming avoid loops as much as possible
+# Is also memory expensive
+# Loops are sensitive if you don't break them they can crash your computer
+
 #FOR LOOPs
 fruits = ["apple", "banana", "mangoes", "berry"]
 
@@ -28,4 +31,16 @@ for item in fruits:
     if item == "banana":
         pass
 
+
+#WHILE LOOPs
+# Is also memory expensive
+# Loops are sensitive if you don't break them they can crash your computer
+count = 5
+
+while count <= 10:
+    print(count)
+    count += 1
+    print("the value of count is:", count)
+    if count == 10:
+        break
       

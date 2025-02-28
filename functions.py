@@ -5,6 +5,9 @@
 # No Python Function should have the same name as a variable in the same python script
 # Functions are not created they defined
 # They are inactive after defining until invoked
+# Functions are self containined, you can't call/access a variable within a function block outside that function.
+# variables within a function are called local variables and are only accessible within the function block by default
+# You can However reference a variable outside within a function thus the variable will be called a global variable
 
 numbers = [10, 20, 30, 40, 50, 60, 70, 80]    
 
@@ -45,3 +48,4 @@ def add2():
         print(f"{a} gives a remainder")
 
 add2()
+
