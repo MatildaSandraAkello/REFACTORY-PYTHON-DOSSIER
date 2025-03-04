@@ -1,4 +1,4 @@
-#DATA TYPES IN
+#DATA TYPES IN PYTHON
 
 #Data types specify data that can be stored inside a variable
 #Data types in pyhton include:

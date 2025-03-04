@@ -1,5 +1,6 @@
 # return - returns a value / exposes value/ allows the value of a function to be accessed outside the function
-# return is also used when one function wants to access a value from another function
+# return is also used when one function wants to access a value from another function ie if you intend to use a value from one function in another
+# return statement marks the end of execution of a function
 
 def add():
     var1 = 23
