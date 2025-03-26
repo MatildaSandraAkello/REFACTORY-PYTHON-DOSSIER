@@ -51,3 +51,9 @@ Exam mark is marked out of 60%
 
 """
 
+"""
+Individual assignment 7th/03/2025
+Use atleast 5 classes to demonstrate inheritance with Python
+Use a constructor with atleast 7 parameters with corresponding properties
+The last class of the inheritance chain
+"""
